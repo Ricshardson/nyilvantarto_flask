@@ -1,4 +1,8 @@
 {
+  "//": "ezt a file-t a bower inittel generáltuk",
+  "//": "tartalmazza a frontend függőségeket",
+  "//": "telepíteni a bower install paranccsal lehet",
+
   "name": "jquery",
   "main": "dist/jquery.js",
   "license": "MIT",
