@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FLASK App</title>
+</head>
+<script type="text/javascript" src="{{ url_for('static', filename='bower_components/jquery/dist/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
+<body>
+<nav class="navbar container">
+<div class="col-md-6 col-sm-6 col-md-offset-3 col-sm-offset-3">
+  <div class="row row-centered">
+   <button id="1" type="button" class="menu-item btn btn-primary col-sm-3 col-md-3 col-xs-12 col-centered">Menu1</button>
+   <button id="2" type="button" class="menu-item btn btn-secondary col-sm-3 col-md-3 col-xs-12 col-centered">Menu2</button>
+   <button id="3" type="button" class="menu-item btn btn-secondary col-sm-3 col-md-3 col-xs-12 col-centered">Menu3</button>
+   </div
+</div>
+</nav>
+  <div id="1" class="content container col-md-8 col-md-offset-2">
+   CONTENT1
+</div>
+  <div id="2" class="content container col-md-8 col-md-offset-2">
+  <h1> Dev környezet web apphoz </h1>
+  javascript package manager (nodejs) :npm<br>
+<code> apt install nodejs </code><br>
+web package manager<br>
+<code> bower npm install --global bower</code><br>
+ web package-ek telepítése a statiic mappába:<br>
+<code> bower install bootstrap</code><br>
+  <h2> BackEnd:</h2> <br>
+   Pyhton3<br>
+  <code> apt install python3 </code> <br>
+   python csomagkezelője:<br>
+    <code> pip apt install python3-pip</code> <br>
+
+  <h3> python csomag: virtualenv</h3>
+   <code>sudo pip install virtualenv</code><br>
+  virtualenv: elszeparált környezet az adott fejlesztéshez létrehozása <br>
+
+<code> virtualenv -p python3 /home/userem/virtualenv/sajat_appom</code> <br>
+ a virtualenvet létrehozás után aktiválni kell:<br>
+<code> source /home/userem/virtaulenv/sajat_appom/bin/activate</code><br>
+ Ezután minden amit pythonban csinálunk a virtualenven belül fog működni CSAK<br>
+ python csomag telepítése<br>
+<code> pip install flask</code><br>
+</div>
+<script>
+console.log("MAJD HOLNAP....")
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
