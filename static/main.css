@@ -23,13 +23,33 @@
 	display: none;
 }
 
+.add{
+	padding: 4px 16px;
+	margin: 10px;
+	float: right;
+	border-radius: 5px;
+}
+
+
+.remove {
+ display: inline-block;
+ margin: 10px;
+ padding: 4px 16px;
+ border-radius: 5px;
+ float: left;
 
 
 
+}
+
+.munkaora {
+	width:100%;
+}
 
 
-
-
+.datum_mezo {
+	width: 100%;
+}
 
 
 
